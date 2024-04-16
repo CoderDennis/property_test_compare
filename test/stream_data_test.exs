@@ -36,4 +36,12 @@ defmodule StreamDataTest do
       end
     end
   end
+
+  describe "trivial properties" do
+    property "all integers that are multiples of 100 are less than 321" do
+      check all(x <- integer(0..9000//100)) do
+        assert x < 321
+      end
+    end
+  end
 end
