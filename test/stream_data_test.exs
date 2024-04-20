@@ -30,7 +30,6 @@ defmodule StreamDataTest do
               real <- good_fields(whitelist),
               garbage <- scale(list_of(binary()), &(&1 * 4))
             ) do
-        # assert Enum.count(whitelist) == Enum.count(real)
         fields = real ++ garbage
         assert FieldSelector.whitelist(fields, whitelist) == real
       end

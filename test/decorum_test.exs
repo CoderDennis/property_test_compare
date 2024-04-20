@@ -14,8 +14,7 @@ defmodule DecorumTest do
     end)
   end
 
-  # fails with seed 751478
-  # this and StreamData test fail with 66194, 109412
+  # this and StreamData test fail with seeds 66194, 127938
   describe "whitelist/2" do
     test "property returns only the whitelisted fields" do
       [whitelist(), list_of(binary())]
