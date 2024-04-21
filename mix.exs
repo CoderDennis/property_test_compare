@@ -22,7 +22,7 @@ defmodule PropertyTestCompare.MixProject do
   defp deps do
     [
       {:stream_data, "~> 0.6", only: :test},
-      {:decorum, "~> 0.1.1", only: :test}
+      {:decorum, "~> 0.1.2", only: :test}
     ]
   end
 end

@@ -1,4 +1,4 @@
 %{
-  "decorum": {:hex, :decorum, "0.1.1", "2024a388cd1206b2458c6518dbb97f28820da85efd84b72ae93e371de0d4633c", [:mix], [], "hexpm", "2b2ce096607ca903e38db962f8f814e4db05c820db217af88e23ee3ffba0898c"},
+  "decorum": {:hex, :decorum, "0.1.2", "32316f8d6c0caf574f09c67930969d163a67b86ac1edce7aa7ea4f58933b99c7", [:mix], [], "hexpm", "652e7fe0b8e976c08b5fc71de50d82a564c2790c1b336c00c9cb6ef447747043"},
   "stream_data": {:hex, :stream_data, "0.6.0", "e87a9a79d7ec23d10ff83eb025141ef4915eeb09d4491f79e52f2562b73e5f47", [:mix], [], "hexpm", "b92b5031b650ca480ced047578f1d57ea6dd563f5b57464ad274718c9c29501c"},
 }
